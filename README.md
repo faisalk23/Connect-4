@@ -6,7 +6,7 @@
 ### board1 = [b.copy() for b in board]
 ## Data Abstraction
 ### The board 2-D list is constantly being changed and stored. This data is retrived to check if a draw occured, to check if one of the players won, or to create possibilities that the computer could play. 
-#### Draw: def draw():
+#### def draw():
 ####    for a in board:
 ####        for i in a:
 ####            if i != '⚪':
