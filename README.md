@@ -3,7 +3,7 @@
 ### I created this program to challenge myself by creating a computer that can play versus a human. This was especially difficult because I needed to think deeply about how humans think through moves and encode that. This game is made for anyone interested in playing Connect 4, but it is specially made as a challenge for myself.
 ## Breakthrough Moment
 ### One “breakthrough moment” I had was when trying to create an identical board such that the computer could simulate each column as an option. I tried trying board1 = board, but this caused board to change whenever board1 changed, which was not the purpose. I was able to overcome this by using the copy() function. 
-### board1 = [b.copy() for b in board]
+#### board1 = [b.copy() for b in board]
 ## Data Abstraction
 ### The board 2-D list is constantly being changed and stored. This data is retrived to check if a draw occured, to check if one of the players won, or to create possibilities that the computer could play. 
 #### def draw():
